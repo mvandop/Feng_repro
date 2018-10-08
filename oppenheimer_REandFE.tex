@@ -1,0 +1,22 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{4}{c}}
+\toprule
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+                    &\multicolumn{1}{c}{Emigrants}&\multicolumn{1}{c}{Emigrants}&\multicolumn{1}{c}{Emigrants}&\multicolumn{1}{c}{Emigrants}\\
+\midrule
+lnCorn              &      -1.232         &       0.746         &                     &                     \\
+                    &     (-0.45)         &      (1.15)         &                     &                     \\
+\addlinespace
+lnCornWheat         &                     &                     &      -0.590         &       0.767         \\
+                    &                     &                     &     (-0.21)         &      (1.20)         \\
+\addlinespace
+Constant            &       7.312\sym{***}&       6.354\sym{***}&       7.035\sym{***}&       6.300\sym{***}\\
+                    &      (5.33)         &     (11.27)         &      (4.45)         &     (10.85)         \\
+\midrule
+Observations        &          64         &          64         &          64         &          64         \\
+\bottomrule
+\multicolumn{5}{l}{\footnotesize \textit{t} statistics in parentheses}\\
+\multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}
