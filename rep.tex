@@ -1,0 +1,46 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass{homework}
+
+%----------------------------------------------------------%
+%------------------NAME AND CLASS SECTION------------------%
+%----------------------------------------------------------%
+
+\newcommand{\hmwkTitle}{Feng, Krueger, and Oppenheimer Replication}
+\newcommand{\hmwkDueDate}{\today}
+\newcommand{\hmwkClass}{DS421}
+\newcommand{\hmwkClassTime}{8:00am}
+\newcommand{\hmwkInstructor}{}
+\newcommand{\hmwkAuthorName}{Kendall Calhoun, James Sayre, Molly Van Dop} 
+\newcommand{\hmwkAuthorShort}{Calhoun, Sayre, Van Dop}
+
+\begin{document}
+\maketitle
+
+\begin{problem}[Table 1]
+
+%\small
+%\begin{tabular}{l|lll|lll|lll}
+%\hline \hline  \multicolumn{1}{r}{} & \multicolumn{3}{c}{$CO$ Pollution} & \multicolumn{3}{c}{$NO_2$ Pollution} & \multicolumn{3}{c}{$O_3$ Pollution}\\
+% \multicolumn{1}{l}{Variable} & \multicolumn{1}{c}{(1a)} & \multicolumn{1}{c}{(1b)} & \multicolumn{1}{c}{(1c)} & \multicolumn{1}{c}{(2a)} & \multicolumn{1}{c}{(2b)} & \multicolumn{1}{c}{(2c)} & \multicolumn{1}{c}{(3a)} & \multicolumn{1}{c}{(3b)} & \multicolumn{1}{c}{(3c)} \\ \hline
+Pooled OLS
+
+\input{oppenheimer_pooledOLS}
+
+FE and RE
+
+\input{oppenheimer_REandFE}
+
+FE-2SLS
+
+\input{oppenheimer_2SLS}
+
+FE-LIML
+
+\input{oppenheimer_LIML}
+
+
+%\end{tabular} 
+\\end{problem}
+\end{document}
